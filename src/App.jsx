@@ -3,30 +3,30 @@ import React from "react"
 import Sneakers from "./components/Sneakers"
 import Sidebar from "./components/Sidebar"
 import Header from "./components/Header"
-
+import Sneakers3 from './assets/sneaker-3.jpeg'
 
 const CardItems = [
   { title:"Мужские кроссовки Nike Blazer Mid Suede",
-  imageUrl:"../src/assets/sneaker-1.jpeg",
+  imageUrl:"/src/assets/sneaker-1.jpeg",
   price:12999,
   },{
   title:"Мужские Кроссовки Under Armour Curry 8",
-  imageUrl:"../src/assets/sneaker-2.jpeg",
+  imageUrl:"/src/assets/sneaker-2.jpeg",
   price: 15199,
   },
   {
     title:"Мужские Кроссовки Nike Kyrie 7",
-    imageUrl:"../src/assets/sneaker-3.jpeg",
+    imageUrl: Sneakers3,
     price: 11299,
     },
     {
       title:"Мужские Кроссовки Jordan Air Jordan 11",
-      imageUrl:"../src/assets/sneaker-4.jpeg",
+      imageUrl:"/src/assets/sneaker-4.jpeg",
       price: 10799,
       },
       {
         title:"Мужские Кроссовки Nike Lebron XVIII Low",
-        imageUrl:"../src/assets/sneaker-5.jpeg",
+        imageUrl:"/src/assets/sneaker-5.jpeg",
         price: 13999,
         },
 
